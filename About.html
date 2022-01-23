@@ -1,25 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Deb Bytes</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Deb Bytes</title>
+    </head>
 
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">About</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="Contact.html">About</a></li>
-            </ul>
-        </nav>
-    </header>
+    <body>
 
-    <h1>About Me</h1>
-</body>
+
+        <header>
+            <nav>
+                <ul class="container">
+                    <li class="navlink">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="navlink">
+                        <a href="Blog.html">Blog</a>
+                    </li>
+                    <li class="navlink">
+                        <a href="about.html">About</a>
+                    </li>
+                    <li class="navlink">
+                        <a href="Contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <h1>About Me</h1>
+
+        <!----------------Start of Footer-------------->
+        <footer
+            id="footer">
+
+            <!---------------Newsletter Form----------->
+            <form action="">
+                <div>
+                    <label for="firstname">First Name</label>
+                    <input type="text" name="firstname" id="firstname">
+                </div>
+                <div>
+                    <label for="secondname">Second Name</label>
+                    <input type="text" name="secondname" id="secondname">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <button>Submit</button>
+            </form>
+
+            <!--------------End of Form----------->
+
+
+            <!-------------Social Media Links------->
+
+            <div class="socialmedia">
+                <div>
+                    <a href="https://www.linkedin.com/in/deb-render-a8805720a/" class="fa fa-linkedin fa-lg"></a>
+                </div>
+                <div>
+                    <a href="https://github.com/DebRender" class="fa fa-github fa-lg"></a>
+                </div>
+                <div>
+                    <a href="https://twitter.com/Deb_Bytes" class="fa fa-twitter"></a>
+                </div>
+            </div>
+            <br>
+            <p class="copyright">Author: &copy; Deb Render</p>
+        </footer>
+    </body>
 
 </html>

@@ -5,49 +5,64 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="/style.css">
         <title>Deb Bytes</title>
     </head>
 
     <body>
+
         <header>
             <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="Blog.html">Blog</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="Contact.html">Contact</a></li>
+                <ul class="container">
+                    <li class="navlink">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="navlink">
+                        <a href="Blog.html">Blog</a>
+                    </li>
+                    <li class="navlink">
+                        <a href="about.html">About</a>
+                    </li>
+                    <li class="navlink">
+                        <a href="Contact.html">Contact</a>
+                    </li>
                 </ul>
             </nav>
         </header>
 
-        <h1>Welcome to my Blog</h1>
-        <h2>Hi there</h2>
-        <h3>stuff</h3>
 
-        <img src="Images/Animoji.jpeg" alt="Animoji of me" height="200px" width="200px">
-        <section>
-            <H3>Hi Welcome to my journey in Web Dev Scroll down for more</H3>
-        </section>
+        <h1>Hi Welcome to my journey into Web Devevelopment</h1>
+        <!-------------------Animoji Image------------------->
+
+        <img
+        id="animoji" src="Images/Animoji.jpeg" alt="Animoji of me" height="300px" width="300px">
+
+        <!---------------------Main Section------------------->
         <main>
-            <section>
+            <section class="posts">
                 <h3>Most recent Blog post</h3>
-                <img src="" alt="">
+                <img src="Images/joshua-reddekopp-SyYmXSDnJ54-unsplash.jpg" alt="" height="200px" width="200px">
                 <p>Why I'm Here</p>
             </section>
-            <section>
+            <section class="posts">
                 <h3>Most recent Blog post</h3>
-                <img src="" alt="">
+                <img src="Images/thisisengineering-raeng-8hgmG03spF4-unsplash.jpg" alt="" height="300px" width="300px">
                 <p>Why I'm Here</p>
             </section>
-            <section>
+            <section class="posts">
                 <h3>Most recent Blog post</h3>
                 <img src="" alt="">
                 <p>Why I'm Here</p>
             </section>
         </main>
 
-        <footer id="footer">
+
+        <!----------------Start of Footer-------------->
+        <footer
+            id="footer">
+
+            <!---------------Newsletter Form----------->
             <form action="">
                 <div>
                     <label for="firstname">First Name</label>
@@ -63,6 +78,12 @@
                 </div>
                 <button>Submit</button>
             </form>
+
+            <!--------------End of Form----------->
+
+
+            <!-------------Social Media Links------->
+
             <div class="socialmedia">
                 <div>
                     <a href="https://www.linkedin.com/in/deb-render-a8805720a/" class="fa fa-linkedin fa-lg"></a>
