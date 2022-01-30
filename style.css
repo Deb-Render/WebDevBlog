@@ -85,6 +85,11 @@ header {
 
 .wrapper {
   margin-top: 10%;
+  margin-bottom: 10%;
+  background-color: #E2C2B9;
+  margin-right: 10%;
+  margin-left: 10%;
+  padding: 0;
 
 }
 
@@ -163,22 +168,22 @@ header {
 #footer {
   position: sticky;
   top: 100vh;
-  background-color: #e6ad12;
+  background-color: #99A799;
 }
 
-.formcontainer {
+/*.formcontainer {
   display: flex;
   flex-direction: row;
   background-color: #E2C2B9;
   margin-right: 30%;
-  margin-right: 30%;
+  margin-left: 30%;
   
-}
+  
+}*/
 
-footer {
-background-color:#e6ad12 ;
-}
+
 
 .boxes{
   flex-direction: row;
+  
 }
