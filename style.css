@@ -89,7 +89,7 @@ header {
   background-color: #E2C2B9;
   margin-right: 10%;
   margin-left: 10%;
-  padding: 0;
+  
 
 }
 
@@ -160,6 +160,25 @@ header {
       margin-left: 20%;
       
     }
+/*Contact boxes*/
+    .contactbox {
+      background-color:#E2C2B9;
+      
+      display: flex;
+      width: fit-content;
+      
+      margin: 10% auto;
+    }
+
+    .indi {
+    border: black solid;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    background-color: #F2DDC1;
+    align-items: center;
+    
+    }
 
 
     /*Footer*/
@@ -187,3 +206,10 @@ header {
   flex-direction: row;
   
 }
+
+/* comment section*/
+
+.telegram{
+  color: black;
+}
+
